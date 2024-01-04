@@ -20,7 +20,7 @@ access all the inbuilt functions of a string.
 */
 console.log(gameName.__proto__);
 /*
-it will return an object
+it will return an anonymous object
 */
 console.log(gameName.toUpperCase());
 /* 
