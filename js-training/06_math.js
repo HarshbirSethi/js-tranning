@@ -34,3 +34,5 @@ console.log(Math.random()) //it generates a random number
 //console.log(Math.round(Math.random()*6)) //it will generate up to 0 to six
 //console.log(Math.floor(Math.random()*6)+1)//it will generate the dice from 1 to 6
 console.log(Math.ceil(Math.random()*6)) //it will generate the dice from 1 to 6
+const price=100000;
+console.log(price.toLocaleString("en-IN"))
