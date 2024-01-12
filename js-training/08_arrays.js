@@ -29,7 +29,7 @@ console.log(Array.of(score1,score2,score3))
 
 console.log(Array.isArray("Harshbir Singh")) //it will whther it is an array or not.
 console.log(Array.from("Harshbir Singh")) //it will generate an array from the value
-Std_name={name:"Harhbir Singh"}
+let Std_name={name:"Harhbir Singh"}
 console.log(Array.from(Object.values(Std_name)));
 
 const allArr = myArr.concat(myArr2)
@@ -39,5 +39,27 @@ console.log(allArr)
     
 
 /*
-The slice() method can be used to create a copy of an array or return a portion of an array. It is important to note that the slice() method does not alter the original array but instead creates a shallow copy. Unlike the slice() method, the splice() method will change the contents of the original array
+The slice() method can be used to create a copy of an array or return a portion of an array. 
+It is important to note that the slice() method does not alter the original array but instead creates a shallow copy.
+Unlike the slice() method, the splice() method will change the contents of the original array
 */
+
+const number=[1,9,8,2,6]
+let max_value= Math.max(...number)
+console.log(`Maximum number in the array = ${max_value}`);
+console.log(`Minimum number in the array = ${Math.min(...number)}`);
+
+let sort_array = number.sort()
+console.log(sort_array)
+console.log(sort_array.indexOf(9))
+
+const Student_names=["Harshbir","Rajbir","Meharbir","Nikhil","Abhinav","Aarush"]
+let sort_names = Student_names.sort()
+console.log(Student_names);
+Student_names.splice(0,3)
+console.log(Student_names);
+console.log(Student_names.includes("Rajbir"));
+
+let sort_name = Array.from("Harshbir Singh");
+console.log(sort_name.sort());
+
