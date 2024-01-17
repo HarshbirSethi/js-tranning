@@ -50,7 +50,7 @@ const sum_num = (a) => {
 }
 console.log(sum_num(10));
 
-const fibonacci = (n) => {
+/* const fibonacci = (n) => {
     if(n < 2) {
         return n;
     }
@@ -58,6 +58,7 @@ const fibonacci = (n) => {
         return fibonacci(n-1) + fibonacci(n - 2);
     }
 }
+*/
 for(let i = 0; i < 10; i++) {
     console.log(fibonacci(i));
 }
