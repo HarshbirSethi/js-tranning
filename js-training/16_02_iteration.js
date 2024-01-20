@@ -54,3 +54,32 @@ This for (..of) statement lets you loop over the
 The JavaScript for (..in) statement loops through the
  enumerable properties of an object.
 */
+const myObject = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: "ruby",
+    swift: "swift by apple"
+}
+
+for (const key in myObject) 
+{
+    console.log(`${key} shortcut is for ${myObject[key]}`);
+}
+
+const programming = ["js", "rb", "py", "java", "cpp"]
+
+for (const key in programming) 
+{
+    console.log(programming[key]);
+}
+
+const new_map = new Map()
+new_map.set('IN', "India")
+new_map.set('USA', "United States of America")
+new_map.set('Fr', "France")
+new_map.set('IN', "India")
+
+for (const key in new_map)
+{
+    console.log(key);
+}
